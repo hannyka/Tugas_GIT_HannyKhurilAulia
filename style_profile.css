@@ -1,0 +1,206 @@
+img{
+    float: left;
+    position: initial;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* background-color: #f3f3f3; */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile-details {
+  text-align: left;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+/* style untuk link di dalam elemen nav*/
+header nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    font-family: 'arial', sans-serif;
+    position: relative;
+    transition: color 0.3s;
+}
+
+
+header nav a:hover{
+    color: rgb(0, 0, 0);
+} */
+
+/*style untuk underline animasi*/
+header nav a ::after{
+    content: '';
+    display:block;
+    height:2px;
+    width:0;
+    background:#fbadad ;
+    transition: width 0.3s;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom: -5px;
+}
+/* style untuk elemen h1 di dalam header*/
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+section {
+    background-position: center center;
+    background-color: rgb(255, 207, 215);
+  }
+  body{
+    background-image: url("pngegg\ \(9\).png");
+
+  }
+  header h1{
+    background-color: #ff80be;
+    opacity: 70%;
+  }
+
+#pp{
+    width: 200px;
+    height: 200px;
+    margin: 5;
+    border-radius: 80%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 20%;
+}
+
+button {
+    position: relative;
+    background-color: rgb(255, 93, 182);
+    border-radius: 5px;
+    box-shadow: rgb(234, 70, 130) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 70px;
+    height: 20px;
+    color: hwb(323 56% 0%);
+    border: none;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  button::before {
+    content: "";
+    background-color: rgb(248, 50, 93);
+    width: 0; /* Adjust the width transition start value as needed */
+    height: 100%; /* Reduced height from 80% to 50% */
+    position: absolute;
+    top: 25%; /* Center vertically since height is 50% */
+    left: 0;
+    z-index: -1;
+    transition: width 400ms ease-in-out;
+    display: inline-block;
+}
+  
+  button:hover::before {
+    width: 100%;
+  }
+  .thead{
+    background-color: hwb(323 56% 0%);
+  }
+
+  footer{
+    background-color: hwb(323 56% 0%); /*warna latar belakang*/
+    color: #000000; /*warna text*/
+    padding: 13px; /*padding di dalam footer*/
+    text-align: center; /*text ditengah*/
+    font-size: 13px;/*ukuran text*/
+    border-top: 1px solid hwb(323 56% 0%);
+}
+
+  .footer1{
+  background-color: hwb(323 56% 0%); /*warna latar belakang*/
+  color: #000000; /*warna text*/
+  padding: 13px; /*padding di dalam footer*/
+  text-align: center; /*text ditengah*/
+  font-size: 13px;/*ukuran text*/
+  border-top: 1px solid hwb(323 56% 0%);
+}
+#textarea{
+  align-items: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-section {
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  vertical-align: middle; /* Align images vertically in the middle */
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid #f99;
+}
+
+.arofan {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
